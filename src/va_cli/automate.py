@@ -28,7 +28,7 @@ DOW_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",
 def compute_cron_times(
     py_dow: int,
     time_str: str,
-    booking_open_hours: int = 48,
+    booking_open_hours: int = 120,
     login_offset_minutes: int = 5,
 ) -> dict[str, Any]:
     """Return book and login cron minute/hour/DOW for a recurring class.
