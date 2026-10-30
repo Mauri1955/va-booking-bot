@@ -82,5 +82,5 @@ class Config:
             state_dir=state_dir,
             timeout_seconds=float(os.getenv("VA_TIMEOUT_SECONDS", "20")),
             queue_full_threshold=int(os.getenv("VA_QUEUE_FULL_THRESHOLD", "15")),
-            booking_open_hours=int(os.getenv("VA_BOOKING_OPEN_HOURS", "48")),
+            booking_open_hours=int(os.getenv("VA_BOOKING_OPEN_HOURS", "120")),
         )
